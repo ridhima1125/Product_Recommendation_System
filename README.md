@@ -21,4 +21,4 @@ to users based on their preferences and purchase history.
 - Scikit-learn
 
 ## 🚀 Live App
-[Click here](STREAMLIT_LINK_YAHAN_DAALNA)
+[Click here](https://appuctrecommendationsystem-ptwxh5cvbaeos9captlo9m.streamlit.app/)
