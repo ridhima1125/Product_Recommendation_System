@@ -7,3 +7,4 @@ openpyxl
 plotly
 scikit-learn
 sqlalchemy
+pymysql
