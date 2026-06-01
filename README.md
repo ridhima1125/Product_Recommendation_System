@@ -1,10 +1,10 @@
-# 🛍️ Product Recommendation System
+# Product Recommendation System
 
-## 📌 Project Overview
+## Project Overview
 A product recommendation system that suggests relevant products
 to users based on their preferences and purchase history.
 
-## 📁 Files
+## Files
 | File | Description |
 |------|-------------|
 | `app.py` | Streamlit web application |
@@ -12,7 +12,7 @@ to users based on their preferences and purchase history.
 | `data.xlsx` | Product dataset |
 | `dashboard.pbix` | Power BI dashboard |
 
-## 🛠️ Tools Used
+## Tools Used
 - Python, Pandas, NumPy
 - Streamlit
 - Power BI
@@ -20,5 +20,5 @@ to users based on their preferences and purchase history.
 - Jupyter Notebook
 - Scikit-learn
 
-## 🚀 Live App
+## Live App
 [Click here](https://appuctrecommendationsystem-ptwxh5cvbaeos9captlo9m.streamlit.app/)
