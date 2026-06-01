@@ -19,8 +19,8 @@ st.caption("MySQL + Machine Learning + Streamlit")
 @st.cache_resource
 def get_engine():
     return create_engine(
-        "mysql+pymysql://root:iamidiot@localhost/rec_db"
-    )
+    "mysql+pymysql://root:UyVyxjXuefy1nKVSRfJfXeEuFoqvyTox@zephyr.proxy.rlwy.net:41245/railway"
+)
 
 @st.cache_data
 def load():
