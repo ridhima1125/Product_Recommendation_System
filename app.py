@@ -19,9 +19,8 @@ st.caption("MySQL + Machine Learning + Streamlit")
 @st.cache_resource
 def get_engine():
     return create_engine(
-    "mysql+pymysql://root:UyVyxjXuefy1nKVSRfJfXeEuFoqvyTox@zephyr.proxy.rlwy.net:41245/railway"
-)
-
+        f"mysql+pymysql://{st.secrets['MYSQLUSER']}:{st.secrets['MYSQLPASSWORD']}@{st.secrets['MYSQLHOST']}:{st.secrets['MYSQLPORT']}/{st.secrets['MYSQLDATABASE']}"
+    )
 @st.cache_data
 def load():
     engine = get_engine()
